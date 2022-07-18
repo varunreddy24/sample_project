@@ -1,0 +1,10 @@
+.scroll{
+    border: black 1px solid;
+    margin-top: 5vh;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.data-cell, .data-cell tr, .data-cell td{
+    padding:0;
+    margin: 0;
+}
