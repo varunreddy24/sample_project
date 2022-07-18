@@ -8,10 +8,11 @@ public class AmqQueueDepthViewer extends JmxToolPanel {
     private static final int DETAIL_VIEW_SZ = 6;
     private static final int COMPACT_VIEW_SZ = 4;
 
-    public AmqQueueDepthViewer() {
-        initialize();
-    }
-    private void initialize(){
+//    public AmqQueueDepthViewer() {
+//        initialize();
+//    }
 
+    public String[] getRefreshInterval(){
+        return new String[]{"5", "10", "15", "30", "60"};
     }
 }
